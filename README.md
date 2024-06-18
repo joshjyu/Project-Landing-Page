@@ -8,4 +8,4 @@ All photos on the page are my own.
 
 ## Links
 
-Project page link will go here
+[Link to landing page](https://joshjyu.github.io/Project-Landing-Page/)
