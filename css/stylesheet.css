@@ -1,0 +1,164 @@
+body {
+    font-family: Roboto;
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+button {
+    background: #3882f6;
+    color: #f9faf8;
+    border: none;
+    border-radius: 6px;
+    padding: 4px 8px;
+}
+
+.button:hover {
+    background-color: #2c68c4;
+    transition: 0.2s;
+}
+
+.button:active {
+    background-color: #214e93;
+}
+
+.header {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    background: #1f2937;
+}
+
+.header .header-logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+
+.header .header-links {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-size: 15px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.intro-wrap img {
+    width: 350px;
+}
+
+.intro-wrap {
+    background: #1f2937;
+    color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    gap: 60px;
+    flex: 0 1 auto;
+}
+
+.intro {
+    width: 500px;
+}
+
+.intro-wrap .intro-title {
+    margin-bottom: 25px;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.intro-wrap .intro-content {
+    margin-bottom: 25px;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.trip-wrap {
+    padding-top: 40px;
+    margin-bottom: 75px;
+    display: flex;
+    flex-direction: column;
+}
+
+.trip-heading {
+    margin-bottom: 25px;
+    font-size: 28px;
+    font-weight: bold;
+    color: #1f2937;
+    display: flex;
+}
+
+.trip-heading-left {
+    flex: 1 2 100px;
+}
+
+.trip-heading-content {
+    padding-left: 25px;
+    flex: 0 0 500px;
+}
+
+.trip-heading-right {
+    flex: 2 1 100px;
+}
+
+.trip-content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 60px;
+}
+
+.trip-image img {
+    width: 250px;
+    height: 187.5px;
+}
+
+.trip-image {
+    max-width: 250px;
+}
+
+.quote {
+    text-align: center;
+    padding: 150px;
+    background: #e5e7eb;
+    color: #1f2937;
+    font-size: 36px;
+}
+
+.call-to-action-wrapper {
+    padding: 75px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.call-to-action-content {
+    padding: 25px;
+    gap: 50px;
+    background: #afcdfb;
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+    padding: 20px;
+    background: #1f2937;
+    color: #f9faf8;
+}
