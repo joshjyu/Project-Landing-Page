@@ -11,6 +11,10 @@ a {
     color: #e5e7eb;
 }
 
+img {
+    border-radius: 8px;
+}
+
 ul {
     list-style-type: none;
     padding: 0;
@@ -61,6 +65,7 @@ button {
 }
 
 .intro-wrap img {
+    border-style: solid;
     width: 350px;
 }
 
@@ -127,6 +132,8 @@ button {
 }
 
 .trip-image img {
+    border-style: solid;
+    border-color: #1f2937;
     width: 250px;
     height: 187.5px;
 }
@@ -150,6 +157,7 @@ button {
 }
 
 .call-to-action-content {
+    border-radius: 5px;
     padding: 25px;
     gap: 50px;
     background: #afcdfb;
